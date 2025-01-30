@@ -1,0 +1,174 @@
+{
+	"id": "afa03378-d0f9-4a77-ac32-274ea94755e3",
+	"name": "DummyJson API Testing",
+	"timestamp": "2025-01-30T12:46:19.595Z",
+	"collection_id": "41090914-3ac3f722-793d-45e5-9f64-12d4a8a898c5",
+	"folder_id": 0,
+	"environment_id": "41090914-9dcfd4f2-e452-4d68-ad10-3c76eef6fce5",
+	"totalPass": 48,
+	"delay": "20",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-01-30T12:46:12.256Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3a2f4eff-46ce-410b-859c-66893984b862",
+			"name": "Get products by a category",
+			"url": "https://dummyjson.com/products/category/mens-shoes",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Statusas yra 200": true,
+				"Produktų kiekis kategorijoje > 0": true
+			},
+			"testPassFailCounts": {
+				"Statusas yra 200": {
+					"pass": 24,
+					"fail": 0
+				},
+				"Produktų kiekis kategorijoje > 0": {
+					"pass": 24,
+					"fail": 0
+				}
+			},
+			"times": [
+				491,
+				150,
+				150,
+				154,
+				151,
+				156,
+				152,
+				149,
+				161,
+				147,
+				162,
+				156,
+				150,
+				150,
+				165,
+				168,
+				157,
+				155,
+				159,
+				150,
+				150,
+				158,
+				150,
+				151
+			],
+			"allTests": [
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				},
+				{
+					"Statusas yra 200": true,
+					"Produktų kiekis kategorijoje > 0": true
+				}
+			]
+		}
+	],
+	"count": 24,
+	"totalTime": 4042,
+	"collection": {
+		"requests": [
+			{
+				"id": "3a2f4eff-46ce-410b-859c-66893984b862",
+				"method": "GET"
+			}
+		]
+	}
+}
